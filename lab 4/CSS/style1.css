@@ -1,0 +1,69 @@
+.chatbox{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+.direction{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+}
+
+.chatsboxfield{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    height: 300px;
+    background-color: #403d3d;
+    margin: 0;
+}
+
+.chats{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    height: 500px;
+    height:auto;
+    background-color: #0e1621;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sendButton{
+    width: 150px;
+    height: 50px;
+    background-color: cornflowerblue;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.message {
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 60%;
+    clear: both;
+}
+.userA {
+    background-color: #1e90ff;
+    align-self: flex-start;
+}
+.userB {
+    background-color: #32cd32;
+    align-self: flex-end;
+}
+
+.sendButton:hover{
+    cursor: pointer;
+}
+
+label{
+    color: #ffffff;
+}
